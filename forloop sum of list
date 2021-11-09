@@ -1,0 +1,6 @@
+shoiping_item_price = [20, 30, 24, 20]
+total = 0
+for price in shoiping_item_price:
+    total += price
+print(f"The total value of shoping is :{total}")
+
