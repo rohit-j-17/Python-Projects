@@ -1,0 +1,10 @@
+right_guess = 9
+count_guess = 0
+limit_guess = 3
+while count_guess < limit_guess :
+    guess = int(input("Guess :"))
+    if guess == right_guess:
+        print("You Won")
+        break;
+    else:
+        print("Wrong Guess")
