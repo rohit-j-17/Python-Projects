@@ -1,0 +1,4 @@
+name  = ['rohit', 'ramesh', 'vanita']
+print(name[1])
+print(name[1:2])
+print(name[4])
